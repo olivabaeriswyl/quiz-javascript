@@ -37,7 +37,7 @@ const cardContent = document.querySelector("p");
 cardContent.classList.add("highlight");
 // -----------------------
 // 9. Récupérez la valeur de l'attribut "placeholder" (.getAttribute("...")) de l'élément HTML <input> (ligne 17 du code HTML).
-
+//C'est la catastrophe :,)
 // -----------------------
 // 10. Expliquez ce qu'est un écouteur d'événement.
 // REPONSE: Ça écoute un évènement, une interaction.
@@ -48,4 +48,4 @@ cardContent.classList.add("highlight");
 // 11.2 : Utilisez la méthode .addEventListener("...", function() {...}) sur l'élément HTML sélectionné en 11.1 pour écouter l'événement "click".
 // 11.3 : Lorsqu'un.e utilisateurice clique sur le bouton, ajoutez/supprimez (toggle) la class ".hide" de l'élément HTML <p> (ligne 29-31 du code HTML).
 const event = document.querySelector("button")
-event.addEventListener("click", function() {...})
+event.addEventListener("click", function() {...}) //C'est la catastrophe :,)
