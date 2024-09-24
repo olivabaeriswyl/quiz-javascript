@@ -47,3 +47,5 @@ cardContent.classList.add("highlight");
 // 11.1 : Sélectionnez l'élément HTML <button> (ligne 26 du code HTML).
 // 11.2 : Utilisez la méthode .addEventListener("...", function() {...}) sur l'élément HTML sélectionné en 11.1 pour écouter l'événement "click".
 // 11.3 : Lorsqu'un.e utilisateurice clique sur le bouton, ajoutez/supprimez (toggle) la class ".hide" de l'élément HTML <p> (ligne 29-31 du code HTML).
+const event = document.querySelector("button")
+event.addEventListener("click", function() {...})
