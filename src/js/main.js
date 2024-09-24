@@ -4,43 +4,43 @@
 // -----------------------
 
 // 1. Expliquez ce qu'est-ce qu'une variable.
-// REPONSE:
+// REPONSE: Une variable sert à stocker et manipuler une valeur.
 
 // -----------------------
 // 2. Déclarez une variable s'appelant "firstName" et dont la valeur est votre prénom.
-
+const firstName = Oliva;
 // -----------------------
 // 3. Déclarez une variable s'appelant "age" et dont la valeur est votre âge. Attention, sa valeur pourrait être modifiée par la suite.
-
+let age = 18;
 // -----------------------
 // 4. Dans le code HTML (lignes 17 - 23), citez les divers éléments composant l'élément HTML <input>:
-// - Balise HTML:
-// - Classe(s):
-// - Attribut(s):
+// - Balise HTML: input
+// - Classe(s): password-input
+// - Attribut(s): card-input
 
 // -----------------------
 // 5. Expliquez la différence entre une class et un ID.
-// REPONSE:
+// REPONSE: L'id est beaucoup plus spécifique qu'une classe, il est utilisé pour sélectionner un seul élément dans le code
 
 // -----------------------
 // 6. A quoi sert la méthode document.querySelector("..."); ?
-// REPONSE:
+// REPONSE: Pour trouver un élément dans le html (balise,id,classe)
 
 // -----------------------
 // 7. A l'aide de la méthode document.querySelector("..."), sélectionnez l'élément <p> (ligne 14 du code HTML):
 // 7.1 Créez une variable appelée "cardContent".
 // 7.2 Assignez lui l'élément <p> (ligne 14 du code HTML) que vous avez sélectionné en 7.1.
-
+const cardContent = document.querySelector("p");
 // -----------------------
 // 8. Utilisez la variable "cardContent" créée à l'exercice 7:
 // 8.1 Utilisez la propriété .classList pour ajouter (.add("...")) la class ".highlight" à l'élément HTML.
-
+cardContent.classList.add("highlight");
 // -----------------------
 // 9. Récupérez la valeur de l'attribut "placeholder" (.getAttribute("...")) de l'élément HTML <input> (ligne 17 du code HTML).
 
 // -----------------------
 // 10. Expliquez ce qu'est un écouteur d'événement.
-// REPONSE:
+// REPONSE: Ça écoute un évènement, une interaction.
 
 // -----------------------
 // 11. Sur l'élément HTML button (ligne 26 du code HTML), écoutez l'événement "click":
